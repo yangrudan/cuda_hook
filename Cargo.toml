@@ -1,0 +1,12 @@
+[package]
+name = "cuda_hook"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ilhook = "2" # 请检查 ilhook-rs 仓库以获取最新版本
+libc = "0.2"
+libloading = "0.7"
+
+[lib]
+crate-type = ["cdylib"]
